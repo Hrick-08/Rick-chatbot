@@ -8,7 +8,6 @@
     ],
     "env": {
       "GEMINI_API_KEY": "AIzaSyB3tWk2HwaH4Ey1YHxTmkjBkgx08M2a7NI"
-    },
-    "python": "3.8"
+    }
   }
   
