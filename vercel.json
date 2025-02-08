@@ -1,16 +1,14 @@
 {
-    "version":2,
+    "version": 2,
     "builds": [
-        {
-            "src":"./app.py",
-            "use": "@vercel/python",
-            "config":{"runtime":"python3.8"}
-        }
+      {
+        "src": "api/chat.py",
+        "use": "@vercel/python"
+      }
     ],
-    "routes": [
-        {
-            "src":"/(.*)",
-            "dest":"/"
-        }
-    ]
-}
+    "env": {
+      "GEMINI_API_KEY": "AIzaSyB3tWk2HwaH4Ey1YHxTmkjBkgx08M2a7NI"
+    },
+    "python": "3.8"
+  }
+  
